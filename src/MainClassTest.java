@@ -12,13 +12,13 @@ public class MainClassTest  {
 
 
     @Test
-    public void testGetClassNumber()
+    public void testGetClassString()
     {
 
-        int actual = mainClass.getClassNumber();
+        String actual = mainClass.getClassString();
 
 
-        Assert.assertTrue("Should be > 45!", actual > 45);
+        Assert.assertTrue("Should be returned hello or Hello! ", actual.contains("Hello") || actual.contains("hello"));
 
     }
 }
