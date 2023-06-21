@@ -18,7 +18,7 @@ public class MainClassTest  {
         int actual = mainClass.getClassNumber();
 
 
-        Assert.assertTrue("Should be > 45", actual > 45);
+        Assert.assertTrue("Should be > 45!", actual > 45);
 
     }
 }
