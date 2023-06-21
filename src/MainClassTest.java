@@ -12,13 +12,13 @@ public class MainClassTest  {
 
 
     @Test
-    public void testGetLocalNumber()
+    public void testGetClassNumber()
     {
 
-        int actual = mainClass.getLocalNumber();
+        int actual = mainClass.getClassNumber();
 
 
-        Assert.assertTrue("Should be returned 14", actual == 14);
+        Assert.assertTrue("Should be > 45", actual > 45);
 
     }
 }
